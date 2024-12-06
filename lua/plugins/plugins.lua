@@ -12,4 +12,5 @@ return {
       }
     end,
   },
+  "tpope/vim-vinegar",
 }
