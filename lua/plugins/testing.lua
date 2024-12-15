@@ -71,4 +71,8 @@ return {
       }
     end,
   },
+  -- usando só para fazer o test-suite que não encontrei no neotest
+  {
+    "vim-test/vim-test",
+  },
 }
