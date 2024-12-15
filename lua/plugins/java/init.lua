@@ -18,6 +18,11 @@ return {
                     },
                   },
                 },
+                format = {
+                  settings = {
+                    url = "~/dotfiles/config-files/jdtls-eclipse-java-google-style.xml",
+                  },
+                },
               },
             },
           },
