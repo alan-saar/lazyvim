@@ -16,5 +16,11 @@ vim.g.strip_whitespace_on_save = 1 -- esse aqui só funciona setando na marra, n
 
 -- memento mori
 vim.g.memento_mori_birthdate = "1982-07-23"
+-- comando para mostrar github.com/alan-saar/mementoMori no firefox
+vim.api.nvim_create_user_command(
+  "MementoMoriWeb",
+  "!firefox ~/workspace/mementoMori/simple/memento_mori.html",
+  { bang = true }
+)
 
 vim.opt.spelllang = { "en", "br", "pt_br" }
