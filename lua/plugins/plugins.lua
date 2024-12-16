@@ -13,4 +13,5 @@ return {
     end,
   },
   "tpope/vim-vinegar",
+  "Leonidas-from-XIV/memento-mori.nvim",
 }

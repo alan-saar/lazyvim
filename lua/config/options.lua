@@ -14,4 +14,7 @@ vim.api.nvim_create_autocmd("FileType", {
 vim.g.better_whitespace_enabled = 0 -- desabilitei porque não gosto do vermelho, prefiro do jeito do kickstart
 vim.g.strip_whitespace_on_save = 1 -- esse aqui só funciona setando na marra, não consegui usando meu comando :AutoFormatEnableTrailing
 
+-- memento mori
+vim.g.memento_mori_birthdate = "1982-07-23"
+
 vim.opt.spelllang = { "en", "br", "pt_br" }
