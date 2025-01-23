@@ -1,5 +1,8 @@
 -- estou colando aqui as receitas do lazyvim para sobrescrever algumas configs padrão da distribuição
 return {
+  -- no fim acabei abandonando o uso do supertab, a memória muscular estava muito forte no enter
+  -- e os outros editores também usam enter
+  --
   -- essa receita é para usar o <tab> para acionar o autocomplete.
   -- Tenho problemas ao chegar no final de uma linha e apertar enter, e no lugar de ir para proxima linha ele autocompleta alguma coisa
   -- {
