@@ -235,4 +235,15 @@ return {
       })
     end,
   },
+--  "mpas/marp-nvim" criar apreentações em markdown https://github.com/mpas/marp-nvim
+    {
+    "mpas/marp-nvim",
+    config = function()
+      require("marp").setup({
+        port = 9000,
+        wait_for_response_timeout = 30,
+        wait_for_response_delay = 1,
+      })
+    end,
+  },
 }
